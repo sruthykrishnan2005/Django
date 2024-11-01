@@ -1,5 +1,5 @@
 """
-URL configuration for project project.
+URL configuration for stdmgprj project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.1/topics/http/urls/
@@ -16,18 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from app import views
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('h1',views.fun1),
-    path('h2',views.fun2),
-    path('demo',views.fun3),
-    path('home',views.fun4),
-    path('about',views.fun5),
-    path('contact',views.fun6),
-    path('fun7',views.fun7),
-    path('display',views.display),
-    path('add_dtls',views.add_dtls)
-    
-    
 ]
