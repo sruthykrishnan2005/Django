@@ -29,10 +29,14 @@
             <td>{{std.roll_no}}</td>
             <td>{{std.name}}</td>
             <td>{{std.age}}</td>
+            <td>
+                <a href="edit/{{std.roll_no}}">Edit</a>
+                <a href="delete/{{std.roll_no}}">Delete</a>
+            </td>
         </tr>
         {% endfor %}
     </table>
-    <img src="{% static 'image/img1.webp' %}" alt="">
+    <!-- <img src="{% static 'image/img1.webp' %}" alt=""> -->
 
 </body>
 </html>
