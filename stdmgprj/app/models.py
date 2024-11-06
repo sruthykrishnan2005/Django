@@ -8,3 +8,6 @@ class Student(models.Model):
     age=models.IntegerField()
     place=models.TextField()
     address=models.TextField()
+
+    def __str__(self):
+        return self.name
